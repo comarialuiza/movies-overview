@@ -2,4 +2,4 @@
 
 Simple application to practice React, Styled Components and the Context API.
 
-!()[/gitImages/projectOverview.png]
+![](/gitImages/projectOverview.png)
