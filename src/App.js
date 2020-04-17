@@ -1,12 +1,16 @@
 import React from 'react';
 
-import MovieList from './MovieList';
+import GlobalStyle from './styles/global';
+import { MovieProvider } from './components/MovieContext';
+import MovieList from './components/MovieList';
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
-      <MovieList />
+      <MovieProvider>
+        <MovieList />
+        <GlobalStyle/>
+      </MovieProvider>
     </>
   );
 }
